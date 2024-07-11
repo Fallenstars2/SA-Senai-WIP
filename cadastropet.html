@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busque seu Pet 🐾</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="backgroundimage"> 
+
+
+    <!-- <div class="topbanner"> 
+
+        <h1> Cadastre o Pet </h1>
+    
+    </div> -->
+    
+    
+    
+    
+    
+
+
+    
+    <div class="container-register">
+        
+        <h2>Cadastre o Pet</h2>
+
+
+        <form id="AnimalForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nomePet" placeholder=""><br>
+            <label for="tipo">Espécie:</label>
+            <select id="tipo" required>
+                <option value="">Selecione...</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="Gato">Gato</option>
+                <option value="Papagaio">Papagaio</option>
+                <option value="Outro">Outro</option>
+                <option value="Não sei">Não sei</option>
+            </select><br>
+            <label for="racaPet ">Raça:</label>
+            <input type="text" id="racaPet" placeholder="" required><br>
+            <label for="portePet">Porte:</label>
+            <select id="portePet" required>
+                <option value="">Selecione...</option>
+                <option value="Pequeno">Pequeno</option>
+                <option value="Médio">Médio</option>
+                <option value="Grande">Grande</option>
+            </select><br>
+            <label for="corPet">Cor:</label>
+            <input type="text" id="corPet" placeholder="" required><br>
+            <label for="generoPet">Gênero:</label>
+            <select id="generoPet" required>
+                <option value="">Selecione...</option>
+                <option value="Macho">Macho</option>
+                <option value="Femêa">Femêa</option>
+            </select><br>
+            <label for="pelagemPet">Pelagem:</label>
+            <select id="pelagemPet" required>
+                <option value="">Selecione...</option>
+                <option value="Curta">Curta</option>
+                <option value="Médio">Médio</option>
+                <option value="Grande">Grande</option>
+                <option value="Pelado">Sem Pelos</option>
+            </select><br>
+            <label for="imagemPet">Imagem:</label>
+            <input type="file" id="fotoPet" placeholder="Foto do animal" required><br>
+            
+        
+            <!-- <textarea  id="comentarioPet cols="30" rows="10"></textarea> -->
+            
+            
+            <label class="area" for="comentarioPet">Comentários:</label><br>
+            <textarea id="comentarioPet" cols="10" rows="5"  style="resize: none;" maxlength="100"></textarea><br>
+
+
+            <label for="cadastroPetPerdido">
+                Cadastrar Animal Perdido
+            </label><br>
+
+            <input class="radio" type="radio" name="cadastrosPets" value="cadastroPetPerdido">
+            
+            <label for="cadastroPetEncontrado">
+                Cadastrar Animal Encotrado
+            </label><br>
+            
+
+            <input  class="radio" type="radio" name="cadastrosPets" value="cadastroPetEncontrado">
+            
+            
+
+
+            <button onclick="voltar()">Voltar</button>
+            <button onclick="">Cadastrar</button>
+        </form>
+    
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
