@@ -17,10 +17,12 @@
     <div class="container">
 
     <div class="left-side">
-        <h2>Achei meu Pet</h2>
-
+        <h2> Cadastrar Pet Encotrado </h2>
+       
 
         <form class="cadastrodiv">
+
+            <hr> <br>
             <label for="nomePet">Nome:</label>
             <input type="text" id="nomePet"><br>
             <label for="especiePet">Espécie:</label>
@@ -58,8 +60,8 @@
                 <option value="Pelado">Sem Pelos</option>
             </select><br><label for="imagemPet">Imagem:</label>
             <input type="file" id="fotoPet" placeholder="Foto do animal" required><br>
-            <label class="area" for="comentarioPet">Comentários:</label><br>
-            <textarea id="comentarioPet" cols="10" rows="5" style="resize: none;" maxlength="200"></textarea><br>
+            <label class="area" for="comentarioPet">Comentários:</label>
+            <textarea id="comentarioPet" cols="40" rows="5" style="resize: none;" maxlength="200"></textarea><br>
             <button id="cadastrarPet" type="submit">Cadastrar</button>
             <button onclick="voltar()">Voltar</button>
         </form>
