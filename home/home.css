@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 40px 20px;
+    filter: sepia(60%);
+    display: flex;
+    margin: 0 auto;
+    
+  
+
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 100px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#encontreiFeed{
+    border-style: double;
+    flex-wrap: wrap;
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#perdiFeed{
+    border-style: double;
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+    
+   height: 500px;
+    border-color: red;
+    border-style: solid;
+}
+
+
+.modal {
+    display: none; /* Oculta o modal por padrão */
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 1; /* Garante que o modal fique acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total da tela */
+    height: 100%; /* Altura total da tela */
+    overflow: auto; /* Adiciona barra de rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+}
+/* Estilo para o conteúdo do modal */
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo do conteúdo */
+    margin: 15% auto; /* Margem para centralizar o modal */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #888; /* Borda do modal */
+    width: 80%; /* Largura do conteúdo do modal */
+}
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa; /* Cor do botão de fechar */
+    float: right; /* Alinha à direita */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+/* Estilo para o botão de fechar quando o mouse estiver sobre ele */
+.close:hover,
+.close:focus {
+    color: black; /* Cor preta */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Altera o cursor para pointer */
+}
+
+.logodiv {
+    display: flex;
+    flex: 1;
+}
+
+.emptyspace {
+    flex: 3;
+ }
+
+ .logo {
+    width: 81.53px;
+    height: 81.53px;
+    display: flex;
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 2px;
+}
+
+.logodiv2 {
+ flex: 1;
+}
+
+.logoname {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: baskerville, serif;
+    font-size: 30px;
+    border-right: solid white;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.buttons {
+    flex: 1;
+    font-size: 10px;
+}
+
+
+
+.container-feed {
+    height: 100dvh ;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a{
+    display: block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+
+
+a:hover {
+    letter-spacing: 15px;
+    
+}
+
+
+
+ 
+  
+ 
